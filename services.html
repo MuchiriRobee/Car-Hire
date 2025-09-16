@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-</head>
-<body>
-     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Services</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
 
-    </nav>
-</body>
+        </nav>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <br>
+            <label for="Choose a country"></label>
+            <select id="country" name="country">
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Tanzania">Tanzania</option>
+            </select>
+            <br>
+            <label for="Choose gender"></label><hr>
+            <input type="radio" name="language" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="language" value="Female">
+            <label for="Female">Female</label>
+            <br>
+
+        </form>
+    </body>
 </html>
