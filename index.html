@@ -3,19 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Rob Tech Motors</title>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+   <nav class="navbar">
+    <img class="logo" src="images/carlogo.png" alt="Rob Tech Motors Logo">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
+</nav>
 
-    </nav>
-    <h1><b>The most reliable way to hire or rent a car in Nyeri</b></h1>
-    <h2>Short term rental or long term leasing made easy</h2>
-
-     <img src="images/car.jpg" width="400" height="200">
-
+    <section id="welcome">
+        <div class="intro">
+            <h1>Welcome to Rob Tech Motors</h1>
+            <p>Your most trusted solution to dependable cars</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse obcaecati exercitationem incidunt dolorum
+                nesciunt eum provident fuga earum quas, natus aut repudiandae facilis error magni nisi ipsa non possimus
+                impedit!</p>
+            <div class="explore">
+                <button>Learn More</button>
+                <button>Get Started</button>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/car2.jpg" alt="Hero Image">
+        </div>
+    </section>    
 </body>
 </html>
